@@ -8,7 +8,7 @@ public class Office extends Building{
         super(type, dateOfConstruction, numberOfRooms);
         this.companyName = companyName;
         this.hasFireExit = hasFireExit;
-        this.noOfEmployees = 1;  //set as 1 for the owner
+        this.noOfEmployees = 1;  //set to 1 for the owner
     }
 
     public String getCompanyName() {
